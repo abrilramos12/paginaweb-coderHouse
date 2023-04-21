@@ -1,0 +1,334 @@
+/*Index*/
+
+
+body{
+    /*font-family: 'Raleway', sans-serif;*/
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header{
+width: 100%;
+position: sticky; /*sirve para cuando bajamos la barra de navegacion baje /*overflow: hidden; lo corta  al exedente y lo deja al ancho del contenedor 
+stroke*/
+top: 10px;
+background-color: rgb(236, 245, 233);
+height: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#img_logo_header{
+    width: 150px;
+    /* margin: 50px; */
+}
+nav{
+  
+    margin-right: 10px;
+    position: sticky;
+
+    
+
+}
+nav a:hover{
+    color: #c78c19;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0  20px;
+
+   
+}
+
+nav a{
+    /* text-transform: uppercase; */
+    color:rgb(112,97,78);
+    
+    font-size: 16px;
+    text-decoration: none;
+}
+header nav ul li{
+    position: relative;
+    display: inline-block;
+}
+
+/*header nav ul li a {
+    display: inline-block;
+    position: relative;
+
+}*/
+
+header nav ul li ul{
+    position: absolute;
+    display: none;
+    
+}
+
+header nav ul li:hover ul{ /*Aca se refiere que en la etiqueta header que dentro tiene la etiqueta nav, y en la ul que hay una li aplicame que cada vez que posiciono el mouse en ese li desplegame la ul pero solo cuando lo posiciono */
+    display: block;
+   
+
+}
+
+.caja-img-princ{
+    width: 100%;
+}
+
+
+.parrafo-princ{
+    text-align: left;
+    font-size: 20px;
+    width: 800px;
+    height: 800;
+    margin: 50px;
+    
+
+   
+}
+
+.Imagenes_Novedades{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+/*Quienes-Somos*/
+
+.flex-container-quienesSomoos{
+    flex-direction: row-reverse;
+}
+
+
+.sobre_nosotros_princ{
+ 
+}
+
+
+.parrafo-princ{
+    font-size: 14px;
+}
+
+#Sobre_nosotros{
+   
+    margin: 40px 30px;
+    
+    font-size: 70px;
+    
+}
+
+#imagen_negocio{
+        
+    width: 400px;
+    margin: 50px; 
+    border-radius: 15px;
+    }
+   
+   
+   
+    /* hola *
+
+    /**/
+    /*Productos*/
+
+
+
+.productos{
+    width: 100%;
+    display: flex; /*display  flex viene acompañado de justify-content y align-items*/
+    justify-content:center;
+   flex-flow: row wrap;/*todo*/
+    /*position: relative;*/
+    /*padding: 20px;*/
+    /*margin: 0px 10px 15px 15px;*/
+    text-align: justify;
+    list-style: none;
+    
+
+   
+}  
+  .titulos_plantas{
+    text-align: center;
+    margin-left: 20px;
+  }  
+
+.imagenes_productos{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 20px;
+   /* box-sizing: border-box; */
+   
+    align-items: center;
+    
+}
+
+.boton-comprar{
+
+}
+
+.descripción_parrafos{
+    text-align: center;
+    align-items: center;
+}
+.listaplantas_exterior{
+   
+}
+.listadeplantas_interior,.listaplantas_exterior{
+    border: 2px solid rgb(61, 51, 48);
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 300px;
+   
+}
+
+:active{
+    border-color: #c78c19;
+}
+
+
+
+
+
+/*SERVICIOS*/
+
+main{
+    
+}
+
+.lista_plagas {
+   
+    display: inline;
+    padding: 500px;
+    margin: 20px;
+    display: flex; /*display  flex viene acompañado de justify-content y align-items*/
+    justify-content:center;
+   flex-flow: row wrap
+   /* display: flex;
+    justify-content: space-between;
+    text-align: center;*/
+    
+
+
+}
+
+.lista_plagas-li{
+    margin: 20px 20px;
+    width: 300px;
+    padding: 20px;
+    list-style: none; /*Elimina los items que estan al que pone por defecto los li */
+   
+
+
+   
+}
+
+
+.imagen-plaga {
+
+    width: 300px;
+    height: 300px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0px 0px 30px;
+    padding: 15px 50px;
+}
+
+.enviar {
+    background-color: #c78c19;
+    color: antiquewhite;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.enviar:hover {
+
+    transform: scale(1.2);
+
+}
+.tabla_dehorario{
+    border-color: black;
+    border-radius:10px
+}
+
+.copiright{
+    font-size: 13px;
+   display: flex;
+   justify-content:flex-end;
+   
+}
+.direccion{
+    display: block;
+}
+#pie-de-pagina{
+    background-color: rgb(236, 245, 233);
+}
+
+/*Consultas*/
+
+
+
+#img_logo_header{
+    width: 150px;
+    /* margin: 50px; */
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0px 0px 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0px 0px 20px;
+    padding: 15px 50px;
+}
+
+form{
+    margin: 40px 0px;
+    width: 50%;
+}
+    
+#checkbox{
+    margin: 20px 0px;
+}
+
+.formadecontacto{
+    display: block;
+}
+.enviar{
+    background-color: #c78c19;
+    color: antiquewhite;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+.enviar:hover{
+    
+    transform: scale(1.2);
+    
+}
