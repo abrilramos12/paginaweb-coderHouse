@@ -1,5 +1,8 @@
 /*Index*/
 
+p{
+    
+}
 
 body{
     /*font-family: 'Raleway', sans-serif;*/
@@ -114,7 +117,7 @@ header nav ul li:hover ul{ /*Aca se refiere que en la etiqueta header que dentro
     font-size: 14px;
 }
 
-#Sobre_nosotros{
+#sobre_nosotros{
    
     margin: 40px 30px;
     
@@ -195,11 +198,7 @@ header nav ul li:hover ul{ /*Aca se refiere que en la etiqueta header que dentro
     cursor: pointer;
     border-radius: 10px;
     width: 300px;
-    animation-name: animacion-cajas;
-            animation-duration: 1s;
-            animation-timing-function: ease-out;
-            animation-delay: 0s;
-            animation-iteration-count: infinite;
+    
    
 }
 
@@ -228,7 +227,7 @@ main{
    /* border: black 4px solid */
 
 
-    text-align: center;*/
+    text-align: center;
     
 
 
