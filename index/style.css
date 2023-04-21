@@ -9,8 +9,8 @@ body{
 }
 header{
 width: 100%;
-position: sticky; /*sirve para cuando bajamos la barra de navegacion baje /*overflow: hidden; lo corta  al exedente y lo deja al ancho del contenedor 
-stroke*/
+
+position: sticky; /*sirve para cuando bajamos la barra de navegacion baje /*overflow: hidden; lo corta  al exedente y lo deja al ancho del contenedor  */
 top: 10px;
 background-color: rgb(236, 245, 233);
 height: auto;
@@ -39,6 +39,7 @@ nav a:hover{
 nav li{
     display: inline;
     margin: 0 0 0  20px;
+
 
    
 }
@@ -138,15 +139,25 @@ header nav ul li:hover ul{ /*Aca se refiere que en la etiqueta header que dentro
 
 
 .productos{
-    width: 100%;
+    
+     display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: #f2f2f2;
+            flex-flow: row wrap;
+           
+     
+    /* width: 100%;
     display: flex; /*display  flex viene acompañado de justify-content y align-items*/
-    justify-content:center;
-   flex-flow: row wrap;/*todo*/
+   /* justify-content:center;
+   flex-flow: row wrap; todo
     /*position: relative;*/
     /*padding: 20px;*/
     /*margin: 0px 10px 15px 15px;*/
-    text-align: justify;
-    list-style: none;
+    /*text-align: justify;
+    list-style: none; */
+
     
 
    
@@ -184,6 +195,11 @@ header nav ul li:hover ul{ /*Aca se refiere que en la etiqueta header que dentro
     cursor: pointer;
     border-radius: 10px;
     width: 300px;
+    animation-name: animacion-cajas;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
    
 }
 
@@ -204,13 +220,14 @@ main{
 .lista_plagas {
    
     display: inline;
-    padding: 500px;
+    
     margin: 20px;
     display: flex; /*display  flex viene acompañado de justify-content y align-items*/
     justify-content:center;
-   flex-flow: row wrap
-   /* display: flex;
-    justify-content: space-between;
+   flex-flow: row wrap;
+   /* border: black 4px solid */
+
+
     text-align: center;*/
     
 
@@ -222,11 +239,13 @@ main{
     width: 300px;
     padding: 20px;
     list-style: none; /*Elimina los items que estan al que pone por defecto los li */
-   
+    border: black 2px solid;
+    border-radius: 10px;
 
 
    
 }
+
 
 
 .imagen-plaga {
